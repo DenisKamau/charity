@@ -166,6 +166,7 @@ li {
 /* Tablet */
 
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
+  
   .hero__Section {
     background-position: 48%;
     height: 620px;
@@ -175,6 +176,7 @@ li {
 /* Mobile landscape */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  
   .hero__Section {
     height: 380px;
   }
@@ -194,20 +196,25 @@ li {
     line-height: 37px;
     margin-bottom: 0px;
   }
+  
   h2 {
     font-size: 12px;
   }
+  
   h3 {
     width: 215px;
     font-size: 18px;
     line-height: 21px;
   }
+  
   h4 {
     font-size: 15px;
   }
+  
   h5 {
     font-size: 15px;
   }
+  
   p {
     font-size: 12px;
     line-height: 19px;
@@ -215,6 +222,7 @@ li {
 }
 
 @media only screen and (max-width: 320px) and (orientation: portrait) {
+  
   .hero__Section {
     background-position: 42%;
   }
