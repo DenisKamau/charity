@@ -1,0 +1,92 @@
+.navbar__Container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navbar__Links {
+  display: flex;
+}
+
+.navbar__Links > li {
+  list-style: none;
+  padding: 10px 15px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(254, 199, 20, 0);
+  color: white;
+  border: 1px solid var(--clr-primary-4);
+}
+
+.navbar__Links > li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid var(--clr-primary-4);
+}
+
+.menu {
+  display: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 650px) {
+  .menu {
+    display: block;
+    border: none;
+    color: white;
+  }
+
+  .navbar__Links {
+    display: none;
+  }
+
+  .navbar__mobileLinks {
+    display: flex;
+    padding: 0;
+    position: absolute;
+    list-style: none;
+    flex-direction: column;
+    top: 100%;
+    right: 0%;
+    width: 100%;
+    font-size: 13px;
+    background-color: rgba(240, 242, 246, 1);
+    padding: 10px 0px;
+  }
+  .navbar__mobileLinks > li {
+    padding: 6px 10px;
+    color: black;
+    font-size: 13px;
+  }
+
+  .navbar__mobileLinks > li:hover {
+    cursor: pointer;
+  }
+
+  .signup {
+    font-size: 13px;
+    border: none;
+    margin-top: 7px;
+    margin-bottom: 15px;
+  }
+
+  .donateButton {
+    background-color: transparent;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: -20px;
+  }
+}
