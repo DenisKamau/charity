@@ -3,11 +3,18 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isMobile, setisMobile] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    window.scrollY >= 70 ? setNavbar(true) : setNavbar(false);
+  };
+
+  window.addEventListener("scroll", changeBackground);
 
   return (
-    <div className="container">
-      <nav>
-        <div className="navbar__Container">
+    <div className={!navbar ? "navbar" : "navbar active"}>
+      <nav className="navSection">
+        <div className="navbar__Container container">
           <div className="logo">
             charity<span>.</span>
           </div>

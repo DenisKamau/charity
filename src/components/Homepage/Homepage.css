@@ -1,8 +1,9 @@
 .heroSection__Contents {
-  margin-top: 210px;
+  padding-top: 210px;
 }
 
 .button {
+  font-family: Poppins;
   width: 115px;
   height: 40px;
   font-style: normal;
@@ -94,6 +95,14 @@
   width: 530px;
 }
 
+.content1 {
+  margin-left: 15px;
+}
+
+.content2 {
+  margin-right: 15px;
+}
+
 .div1 {
   margin-top: 55px;
 }
@@ -126,9 +135,10 @@
 }
 
 .volunteerButton {
+  font-family: Poppins;
   margin-top: 38px;
   height: 40px;
-  width: 100px;
+  width: 114px;
   border-radius: 8px;
   border: none;
   color: black;
@@ -173,7 +183,7 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
   .heroSection__Contents {
-    margin-top: 70px;
+    padding-top: 120px;
   }
   .imageandtext > img {
     max-width: 250px;
@@ -190,8 +200,14 @@
 
 @media only screen and (max-width: 478px) and (orientation: portrait) {
   .heroSection__Contents {
-    margin-top: 95px;
+    padding-top: 80px;
   }
+
+  .button {
+    width: 92px;
+    font-size: 12px;
+  }
+
   .midsection {
     margin-top: 0px;
   }
@@ -233,6 +249,10 @@
 }
 
 @media only screen and (max-width: 320px) and (orientation: portrait) {
+  .heroSection__Contents {
+    padding-top: 170px;
+  }
+
   .button {
     width: 90px;
     font-size: 12px;

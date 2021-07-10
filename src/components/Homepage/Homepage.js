@@ -19,6 +19,7 @@ const Homepage = () => {
           <button className="herobtn2 button">Get started</button>
         </div>
       </section>
+
       <section className="section mid">
         <div className="container midsection">
           <h3>
@@ -50,14 +51,14 @@ const Homepage = () => {
           </h3>
           <div className="imageandtext div1">
             <img className="img1" src={image1} alt="image1" />
-            <div className="textContent">
+            <div className="textContent content1">
               <h5>Highest form of love </h5>
               <p>Charities bring together people who care about a cause so that they can make a difference.</p>
             </div>
           </div>
           <div className="imageandtext div2">
             <img className="img2" src={image2} alt="image1" />
-            <div className="textContent">
+            <div className="textContent content2">
               <h5>Unselfish love of one’s fellow men </h5>
               <p>
                 Since the beginning our theme has been about one thing: improving the lives of others by any means. Everything we do aims to help
